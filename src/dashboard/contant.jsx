@@ -1,0 +1,1 @@
+export const API_URL_GENRE = "http://localhost:7000/api/genres";

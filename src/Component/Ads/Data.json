@@ -1,0 +1,242 @@
+{
+  "hotel": [
+    {
+      "id": 1,
+      "title": "Hotel Nagjir.",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://photos.wikimapia.org/p/00/07/36/12/79_big.jpg",
+      "email" :"Nagjir@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Hotel Al Massira",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://media-cdn.tripadvisor.com/media/photo-s/11/31/be/8d/hotel-al-massira.jpg",
+      "email" :"Al-Massira@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "Hotel Parador",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://media-cdn.tripadvisor.com/media/photo-m/1280/25/ee/e8/ca/caption.jpg",
+      "email" :"Parador@gmail.com"
+    }
+  ],
+
+  "restaurants": [
+    {
+      "id": 1,
+      "title": " Gardénia Hf.",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://media-cdn.tripadvisor.com/media/photo-s/29/75/5e/78/hf-gardenia.jpg",
+      "email" :"Gardénia-Hf@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Restaurant-Moretti",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://ak-d.tripcdn.com/images/0222p12000aem8ndm4ABB_R_800_525.jpg",
+      "email" :"Restaurant-Moretti@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "Restaurant-Hotel Saharatel",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://saharatel.com/wp-content/uploads/2018/02/8.jpg",
+      "email" :"Saharatel@gmail.com"
+    }
+  ],
+
+  "shopping": [
+    {
+      "id": 1,
+      "title": "Lc Waikiki",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://1c-dn.com/upload/medialibrary/bb8/bb8ebc0e8dcc90ccdd467d429d0d6a53.jpg",
+      "email":"LcWaikiki@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Gorena",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://shein-maroc.com/wp-content/uploads/2022/06/AF1QipP-DTDaK_89HmIG-oAMVaLiDTgeib3EMB-JHWnUw1600-h1000-k-no.jpeg",
+      "email":"Gorena@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "Marwa",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://monemploi.ma/wp-content/uploads/2020/11/marwa-recrute-assistant-magasin-et-responsable-magasin_5fa28d3928a0d.jpeg",
+      "email":"Marwa@gmail.com"
+    }
+  ],
+  
+  "health": [
+    {
+      "id": 1,
+      "title": "Heart clinic",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://images.yourstory.com/cs/wordpress/2019/02/health.png?w=1152&fm=auto&ar=2:1&mode=crop&crop=faces",
+      "email":"clinic@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Lumiere Clinic",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://lumiereclinic.co.uk/wp-content/uploads/2023/04/IMG_6414-scaled-e1684152957366.jpg",
+      "email":"LumiereClinic@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "hospital",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://college.mayo.edu/media/mccms/content-assets/campus-amp-community/mayo-clinic-health-system/mayo-clinic-health-system-fiftyfifty-1419348_3632732_0029.jpg",
+      "email":"hospital@gmail.com"
+    }
+  ],
+
+  "beauty": [
+    {
+      "id": 1,
+      "title": "Spa Mood",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock529246408_20200918170319.jpg",
+      "email":"SpaMood@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Salon",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://images.pexels.com/photos/853427/pexels-photo-853427.jpeg?cs=srgb&dl=pexels-delbeautybox-853427.jpg&fm=jpg",
+      "email":"Salon@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "diamondvspa",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://nationaltoday.com/wp-content/uploads/2022/06/25-Face-Mask-1200x834.jpg",
+      "email":"diamondvspa@gmail.com"
+    }
+  ],
+
+  "autoMotive": [
+    {
+      "id": 1,
+      "title": "Car Rental",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://advertising.expedia.com/wp-content/uploads/2020/08/Car-Hero_1920x800.jpg",
+      "email": "CarRental@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Mécanique",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://media.ouest-france.fr/v1/pictures/f20377d9bbf42795e82603c10f42bbaa-fiche-m-tier-m-canicien.jpg",
+      "email": "Mécanique@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "Washing Car",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://static.toiimg.com/thumb/msid-98218200,width-1280,resizemode-4/98218200.jpg",
+      "email": "WashingCar@gmail.com"
+    }
+  ],
+
+  "hobbies": [
+    {
+      "id": 1,
+      "title": "Gyms",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://1.bp.blogspot.com/-uOA2z57ccu8/YEYQzCxNYzI/AAAAAAAAT2I/uhvpO26RzKM8ua0RMuYMPejk79ZvTmedQCLcBGAsYHQ/s664/hotel-villa-honegg_gym_dsc3760.jpg",
+      "email":"Gyms@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Pool",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://pr0.nicelocal.fr/6dBQiQwHH1RgaKam7U8q_w/1120x700,q85/4px-BW84_n0QJGVPszge3NRBsKw-2VcOifrJIjPYFYkOtaCZxxXQ2aUvpHA7z8dm0S7GOlLu1iEo3HwlqZbUKfuyIUwtO7R3dqMtQiMii8mJr37ifJx7zg",
+      "email":"Pool@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "Paintball ",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://mylittlekech.com/wp-content/uploads/2017/01/Western-paintball-700x450.jpg",
+      "email":"Paintball@gmail.com"
+    }
+  ],
+
+  "transport": [
+    {
+      "id": 1,
+      "title": "Bus",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://eurolines.fr/wp-content/uploads/2021/09/bus-flixbus.jpg",
+      "email":"BUS@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Taxi",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://taxidaba.com/wp-content/uploads/2016/05/taxidlide-2.jpg",
+      "email":"TAXI@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "Station",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://www.derhemholding.com/wp-content/uploads/2020/04/ITP-AS-Station_IT58373-scaled.jpg",
+      "email":"STATION@gmail.com"
+    }
+  ],
+
+  "adminstration": [
+    {
+      "id": 1,
+      "title": "Tribinaux",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://1.bp.blogspot.com/--5ZzR98qWeU/XqM4iQskYbI/AAAAAAAAPJ4/lI_7WIxuBwEG72xV57Y62FOoOeX7NsjsACLcBGAsYHQ/s1600/IMG_4061.JPG",
+      "email":"Tribinaux@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Eye cancer hospital",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://rue20.com/wp-content/uploads/2022/05/2F468A3D-080D-446D-94AC-9A134FF193FF.jpeg",
+      "email":"EyeCancerHospital@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "Cashplus",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://media.licdn.com/dms/image/D4E22AQHRbQu_pvDNCw/feedshare-shrink_800/0/1691841451847?e=1695859200&v=beta&t=Gt0U8b-eDoZUAwivAC-oXEmU44YhamX-sOiU-_ABeHw",
+      "email":"Cashplus@gmail.com"
+    }
+  ],
+
+  "services": [
+    {
+      "id": 1,
+      "title": "Banque ",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://www.skyscrapercity.com/attachments/banque-populaire_sud-jpg.378049/",
+      "email":"Banque@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "Académie OXFORD",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://emploi24.ma/wp-content/uploads/2022/03/Academie-OXFORD-Laayoune-recrute-Enseignant-dAnglais.webp",
+      "email":"AcadémieOXFORD@gmail.com"
+    },
+    {
+      "id": 3,
+      "title": "Oum-Saad",
+      "paragraph": "No, Rose, they are not breathing...",
+      "img": "https://image.noelshack.com/fichiers/2023/34/4/1692889342-whatsapp-image-2023-08-24-at-16-01-10.jpg",
+      "email":"Oum-Saad@gmail.com"
+    }
+  ]
+
+}

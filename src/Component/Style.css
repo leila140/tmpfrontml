@@ -1,0 +1,358 @@
+.btnn {
+  display:inline-flex;
+  margin: -0px;
+  justify-content: center ;
+  align-items: center;
+  width: 12rem;
+  margin-left: 120px;
+  margin-right: 60px;
+  margin-top: 30px;
+  overflow: hidden;
+  height: 3rem;
+  background-size: 100% 100%;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+  transition: 0.5s;
+  animation: gradient_301 5s ease infinite;
+ 
+  background-image:  transparent;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  -webkit-box-shadow: inset -1px 3px 8px 5px #f37a09, 2px 5px 16px 0px #383737, 3px 4px 16px 11px rgba(0,0,0,0.32); 
+box-shadow: inset -1px 3px 8px 5px #f37a09, 2px 5px 16px 0px #383737, 3px 4px 16px 11px rgba(0,0,0,0.32);
+}
+
+#container-stars {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(1rem);
+  border-radius: 5rem;
+}
+
+strong {
+  z-index: 2;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  text-shadow: 0 0 4px white;
+  
+}
+
+#glow {
+  position: absolute;
+  display: flex;
+  width: 12rem;
+}
+
+.circle {
+  width: 50%;
+  height: 30px;
+  filter: blur(2rem);
+  animation: pulse_3011 4s infinite;
+  z-index: -1;
+}
+
+.circle:nth-of-type(1) {
+  background: #ea9263;
+}
+
+.circle:nth-of-type(2) {
+  background:#bd6f45
+}
+
+#btn:hover #container-stars {
+  z-index: 1;
+  background-color: #b15e32;
+}
+
+#btn:hover {
+  transform: scale(1.1)
+}
+
+#btn .sub-categories:active {
+  border: double 4px #ea580c;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  animation: none;
+}
+
+#btn:active .circle {
+  background:#bd6f45;
+}
+
+#stars {
+  position: relative;
+  background: transparent;
+  width: 200rem;
+  height: 200rem;
+}
+
+#stars::after {
+  content: "";
+  position: absolute;
+  top: -10rem;
+  left: -100rem;
+  width: 100%;
+  height: 100%;
+  animation: animStarRotate 90s linear infinite;
+}
+
+#stars::after {
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+  
+}
+
+#stars::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -50%;
+  width: 170%;
+  height: 500%;
+  animation: animStar 60s linear infinite;
+}
+
+#stars::before {
+  background-image: radial-gradient(#ffffff 1px, transparent 1%);
+  background-size: 50px 50px;
+  opacity: 0.5;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-135rem);
+  }
+}
+
+@keyframes animStarRotate {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0);
+  }
+}
+
+@keyframes gradient_301 {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulse_3011 {
+  0% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    transform: scale(0.75);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+
+        .dropdown {
+          position: relative;
+          display: inline-block;
+          
+        
+        }
+        
+   
+          
+
+
+
+
+
+
+.sub-dropdown {
+margin-bottom: 10px; 
+
+}
+.sub-sub-dropdown {
+display: none; 
+margin-left: 20px; 
+}
+.sub-dropdown:hover .sub-sub-dropdown {
+display: block;
+
+}
+
+
+
+.sub-categ .sub-dropdown {
+display: inline-block;
+margin-right: 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+.sub-categ {
+flex-direction: column;
+margin-top: 10px;
+width: 40px;
+display: flex;
+flex-wrap: nowrap; /* Empêche les sauts de ligne */
+overflow-x: auto; /* Ajoute une barre de défilement horizontale si nécessaire */
+
+ margin-left: 50px;
+ animation: growOut 300ms ease-in-out;
+ transform-origin: top center;
+top: 100%;
+left: 0;
+
+padding: 10px;
+z-index: 100;
+min-width: 200px;
+text-align: center; /* Center the circles horizontally */
+}
+
+/* Show the dropdown when the parent dropdown is open */
+.dropdown.open .sub-categories {
+display: block;
+}
+
+/* Style for each circular sub-category */
+.sub-categ a {
+   
+  text-decoration: none;
+color: #333;
+display: block;
+margin-right: 10px; /* Espacement horizontal entre les liens */
+margin-bottom: 5px;
+width: 10%;
+  text-decoration: none;
+
+display: inline-block;
+justify-content: center;
+align-items: center;
+font-size: 13px;
+display:inline-flex;
+margin: -0px;
+justify-content: center ;
+align-items: center;
+width: 9rem;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 5px;
+overflow: hidden;
+height: 3rem;
+background-size: 10% 100%;
+backdrop-filter: blur(3rem);
+border-radius: 5rem;
+transition: 0.5s;
+animation: gradient_301 5s ease infinite;
+border: double 4px transparent;
+background-image:  transparent;
+background-origin: border-box;
+background-clip: content-box, border-box;
+}
+
+/*.sub-categories a:hover {
+ background-color:#cb997e;
+}
+ */
+
+.active{
+background-color: #d26c35;
+}
+.w3-animate-zoom {
+animation: animatezoom 1s;
+
+
+}
+
+
+.dropdown {
+margin-right: -1px; /* Ajustez la valeur pour réduire l'espacement entre les catégories */
+}
+/* Responsive Styles */
+
+@media screen and (max-width: 768px) {
+  /* Adjust margin and padding for smaller screens */
+  .sub-categ{
+  
+   
+    margin-top: 0;
+    padding: 10px;
+    margin-left: 25px;
+  }
+  
+  .btnn .btnn.open{
+    width: 66%;
+  }
+    .dropdown{
+      display: inline-block;
+      
+      margin-right:100px !important;
+      width: 60%;
+    }
+    button{
+      margin-right: 200px !important;
+    }
+  
+   
+   
+    
+   
+   
+  
+  
+  
+   
+  /* Adjust styles for circular sub-category links */
+  .sub-categ a {
+    width: 60%; /* Full width for mobile screens */
+    margin: 5px 0;
+  }
+    /* Adjust styles for mobile menu */
+    .mobile-menu {
+      padding: 10px;
+    }
+  }
+
+
+.sub-categ a {
+  flex-direction: column;
+  margin-top: 10px;
+  display: flex;
+  margin-left: 50px;
+  animation: growOut 300ms ease-in-out;
+  padding: 10px;
+  z-index: 100;
+  min-width: 40px;
+  text-align: center;
+}
