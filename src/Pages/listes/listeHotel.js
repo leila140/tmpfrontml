@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import "./lll.css";
 import axios from 'axios';
 import StarRating from '../../dashboard/component/starRating';
+import Search from '../../Search';
 
 // Sample data for hotels
 
@@ -9,13 +10,9 @@ import StarRating from '../../dashboard/component/starRating';
 function ListeHotel({ hotel }) {
 
 
- 
-  
-
 
   return (
     <div style={{ margin: 0 }}>
-      
 
       <div className="searchItem">
         <img src={hotel.imageName} alt={hotel.title} className="siImg" />
@@ -70,6 +67,9 @@ function HotelList() {
     <div className="app-container">
       <h2 style={{ color: '#a67003', textAlign: 'center', fontSize: '50px', marginBottom:'10px' }}>List of Hotels</h2>
       
+      {/* search */}
+      <Search />
+
       {loading && <p>Loading...</p>}
         
         {error && <p>Error: {error.message}</p>}

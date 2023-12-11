@@ -70,12 +70,7 @@ export default () => {
             <Brand />
             <div className={`flex-1 items-center mt-8 md:mt-0 md:flex ${state ? 'block' : 'hidden'}  `}>
               <ul className="flex-1 justify-center items-center space-y-6 md:flex md:space-x-6 md:space-y-0"> </ul>
-              {/* translation */}
-              <div
-                id="google_translate_element"
-                className="flex-1 justify-center mt-5 items-center space-y-6 md:flex md:space-x-6 md:space-y-0"
-              >
-              </div>
+             
               {userState.userInfo ? (
                 <div className="text-white items-center gap-y-5 lg:text-dark-soft flex flex-col lg:flex-row gap-x-2 font-semibold">
                   <div className="relative group">
@@ -116,6 +111,9 @@ export default () => {
                             className="hover:bg-dark-hard hover:text-orange-600 px-4 py-2 text-black lg:text-dark-soft" >
                             Logout
                           </button>
+                          <hr className='border-white' />
+                          {/* translation */}
+                          <div id="google_translate_element"></div>
                         </ul>
                       </div>
                     </div>
